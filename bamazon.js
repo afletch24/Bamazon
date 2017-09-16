@@ -41,12 +41,12 @@ function askUser(){
             message: "How many would you like to buy?"
         }
     ]).then(function(answer){
-        console.log("id selection: " + answer.idSelection);
-        console.log("quantity: " + answer.qtySelection);
+        // console.log("id selection: " + answer.idSelection);
+        // console.log("quantity: " + answer.qtySelection);
 
         connection.query("SELECT stock_quantity FROM products WHERE item_id = ?",[answer.idSelection], function(err, res){
-            console.log("All results: " + res);
-            console.log("sql qty: " + res[0].stock_quantity);
+            // console.log("All results: " + res);
+            // console.log("sql qty: " + res[0].stock_quantity);
        
             if(res[0].stock_quantity > answer.qtySelection){
                connection.query("UPDATE products SET ? WHERE ?",
