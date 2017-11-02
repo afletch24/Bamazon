@@ -3,8 +3,8 @@ This is a amazon like app that utilizes Sequal Pro and Node.js to create a store
 
 ## Dependencies
 The following packages are required:
--mysql 
--inquirer
+- mysql 
+- inquirer
 
 ## Installation 
 - Ensure connection to server
