@@ -3,8 +3,14 @@ This is a amazon like app that utilizes Sequal Pro and Node.js to create a store
 
 ## Dependencies
 The following packages are required:
-*mysql
-*inquirer
+-mysql 
+-inquirer
+
+## Installation 
+- Ensure connection to server
+- Create a sequel database and content by utilizing the schema and seeds provided
+- run *npm install* to install dependencies
+- run *node bamazon.js* to start Bamazon! 
 
 ## Bamazon in Action
 After calling Bamazon through the terminal with node.js, Bamazon will give the user the option to enter the app. 
